@@ -29,6 +29,7 @@ h1{
 .contenitore-card{
  background-image: url('/img/cork.png');
  width: 100%;   
+ 
 }
 
 .card{
@@ -46,4 +47,15 @@ h1{
     height: auto;
     display: block;
     border: 1px solid rgb(160, 154, 154);
+}
+
+
+
+.card .puntina{
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    width: 25px;
+    z-index: 10;
+    border: none;
 }
