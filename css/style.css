@@ -10,7 +10,7 @@
 .col-12{
 position: relative;
 width: 100%;
-padding: 5%;
+padding: 3%;
 background-image: url('/img/wall.png');
 
 }
@@ -21,4 +21,25 @@ h1{
   font-optical-sizing: auto;
   
   
+}
+
+.contenitore-card{
+    position: relative;
+    width:100%;
+    background-image: url('/img/cork.png');
+    
+}
+
+.card-foto{
+    background-color: white;
+    padding: 10px 10px 25px 10px;
+    box-shadow: 0 40px 8px rgba(0,0,0,0.3);
+    text-align: center;
+    position: relative;
+    border: 1px black;
+
+}
+
+.card-foto img {
+    width: 100%;
 }
