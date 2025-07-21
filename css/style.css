@@ -5,12 +5,12 @@
 }
 .contenitore{
     max-width: 100%;
-
+    
 }
 .wall-container{
 position: relative;
 width: 100%;
-padding: 3%;
+padding: 4%;
 background-image: url('/img/wall.png');
 background-size: cover;
 
@@ -25,11 +25,14 @@ h1{
 }
 .row{
     margin: auto;
+    
+ 
 }
 .contenitore-card{
  background-image: url('/img/cork.png');
  width: 100%;   
- 
+ padding-left: 150px;
+ padding-right: 150px;
 }
 
 .card{
@@ -42,7 +45,7 @@ h1{
 
 }
 
-.card img {
+.card img{
     width: 100%;
     height: auto;
     display: block;
@@ -59,3 +62,4 @@ h1{
     z-index: 10;
     border: none;
 }
+ 
