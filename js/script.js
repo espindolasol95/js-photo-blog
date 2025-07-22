@@ -54,6 +54,19 @@ document.addEventListener('DOMContentLoaded', () =>{
             const col = document.createElement('div');
             //qua aggiungo col dentro div che dobrebbe servire per il layout
             col.classList.add('col');
+            //metto l’ html della card dentro il div
+            col.innerHTML = `
+            <div class="card h-100">
+            <img src="img/pin.svg" class="puntina" alt="pin">
+            <img src="${photo.url}" class="card-img-top" alt="${photo.title}">
+            <div class="card-body">
+              <h5 class="card-title text-center">${photo.title}</h5>
+              <p class="card-text text-center">
+                <small class="text-muted">${photo.date}</small>
+              </p>
+            </div>
+          </div>
+        `;
 
 
         })
