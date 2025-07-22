@@ -68,7 +68,9 @@ document.addEventListener('DOMContentLoaded', () =>{
           </div>
         `;
 
-
+         //metto la card nel contenitore
+         photoContainer.appendChild(col);
+         
         })
 
 
