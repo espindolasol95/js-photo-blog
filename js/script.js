@@ -45,6 +45,20 @@ document.addEventListener('DOMContentLoaded', () =>{
     
     //faccio la richiesta http all' api usando axios
     axios.get('https://lanciweb.github.io/demo/api/pictures/').then(response=>{
-        
+
+        //controlando, response.data contiene un array 
+        const photos = response.data;
+        //per ogni oggetto
+        photos.forEach(photo => {
+            //creo un <div> per con la classe "col" 
+            const col = document.createElement('div');
+            //qua aggiungo col dentro div che dobrebbe servire per il layout
+            col.classList.add('col');
+
+
+        })
+
+
+
     })
 })
