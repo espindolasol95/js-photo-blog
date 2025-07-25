@@ -76,3 +76,8 @@ h1{
 
 
 }
+/*da controlare se è giusto perchè ho gia la classe dicchiarata  nel html  */
+.d-none {
+  display: none; 
+   
+}
