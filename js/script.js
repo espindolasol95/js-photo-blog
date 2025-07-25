@@ -32,9 +32,18 @@ document.addEventListener('DOMContentLoaded', () =>{
          //metto la card nel contenitore
          photoContainer.appendChild(col);
          
-        })
+        });
 
 
 
-    })
-})
+    });
+});
+
+//aggiungo il 'click' alla card 
+const img = col('.card-img-top'); //prendo la foto del col.inerHTML
+img. addEventListener('click' , () =>{
+const overlay = document.getElementById('overlay');// prendo l'overlay
+const overlayimg = document.getElementById('overlay-img') // prendo <img> dentro overlay
+
+
+});
