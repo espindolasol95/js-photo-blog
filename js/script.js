@@ -31,9 +31,10 @@ document.addEventListener('DOMContentLoaded', () =>{
 
          //metto la card nel contenitore
          photoContainer.appendChild(col);
+
          //aggiungo il 'click' alla card 
-         const img = col('.card-img-top'); //prendo la foto del col.inerHTML
-         img. addEventListener('click' , () =>{
+         const img = col.querySelector('.card-img-top'); //prendo la foto del col.inerHTML
+         img.addEventListener('click' , () => {
          const overlay = document.getElementById('overlay');// prendo l'overlay
          const overlayimg = document.getElementById('overlay-img') // prendo <img> dentro overlay
 
@@ -45,5 +46,15 @@ document.addEventListener('DOMContentLoaded', () =>{
 
     });
     
+    //evento per chiudere l'overlay quando clicco il bottone 
+    const closebtn = document.getElementById('close-overlay');
+    closebtn.addEventListener('click', () =>{
+    const overlay = document.getElementById('overlay');
+    //riaggiungo la classe per nasconderlo
+    overlay.classList.add('d-none');
+    });
+
+     
+
 });
 
